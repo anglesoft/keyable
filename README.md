@@ -77,7 +77,7 @@ class Endpoint extends Model
             $prefix = 'private-';
         }
 
-        return uniqid($prefix);
+        return $prefix . \Str::random($length);
     }
 }
 ```
