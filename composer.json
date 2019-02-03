@@ -1,0 +1,22 @@
+{
+    "name": "angle/keyable",
+    "description": "Add random unique keys to any model in a Laravel application.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "symfony/var-dumper": "^4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angle",
+            "email": "code@angle.software"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
