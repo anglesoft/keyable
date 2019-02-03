@@ -1,4 +1,4 @@
-# 🗝 keyable
+# 🗝 Keyable Models in Laravel
 
 The Keyable trait will automatically generate random keys for the model on the creating event. 
 
