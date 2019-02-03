@@ -45,7 +45,7 @@ class Vault extends Model
 
 ## Implementing A Custom Strategy
 
-By default, the Keyable Trait uses Laravel (Str::random())[https://laravel.com/api/5.0/Illuminate/Support/Str.html] helper to generate unique keys. You may override this behavior by implementing the ```public function keyableStrategy(string $attribute, int $length) : string``` method on your model.
+By default, the Keyable Trait uses Laravel (Str::random)[https://laravel.com/api/5.0/Illuminate/Support/Str.html] () helper to generate unique keys. You may override this behavior by implementing the ```public function keyableStrategy(string $attribute, int $length) : string``` method on your model.
 
 ```php
 <?php
