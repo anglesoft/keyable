@@ -35,7 +35,7 @@ class Vault extends Model
     use Keyable;
 
     /**
-     * Attributes that hold unique keys.
+     * Attributes containing unique keys.
      *
      * @var array
      */
@@ -60,7 +60,7 @@ class Endpoint extends Model
     use Keyable;
 
     /**
-     * Attributes that hold unique keys.
+     * Attributes containing unique keys.
      *
      * @var array
      */
