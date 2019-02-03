@@ -1,5 +1,7 @@
 # 🗝 keyable
 
+The Keyable trait will automatically generate random keys for the model on the creating event. 
+
 ```php
 use Angle\Keyable;
 
