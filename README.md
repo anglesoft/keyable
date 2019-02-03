@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Many web applications require unique references to their data. Sometimes, increments and uuids are not enough for specifi use-cases.
+Many web applications require unique references to their data. Sometimes, increments and uuids are not enough for specific use-cases.
 
 ## Requirements
 
