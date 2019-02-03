@@ -7,7 +7,7 @@ Many web applications require unique references to their data. Sometimes, increm
 ## Requirements
 
 - PHP >= 7.1
-- Laravel >= 5.7
+- Laravel >= 5.6
 - Relational Database (not tested with other drivers)
 
 ## Installation
@@ -39,7 +39,7 @@ class Vault extends Model
      *
      * @var array
      */
-    public $keys = ['fingerprint' => 128];
+    public $keys = ['fingerprint' => 256];
 }
 ```
 
@@ -81,3 +81,13 @@ class Endpoint extends Model
     }
 }
 ```
+
+## Contributing
+
+Contributions are welcomed! If you have any idea you'd like to implement, feel free to submit a pull request.
+
+## Licence
+
+MIT
+
+Copyright © 2019 [Angle Software](https://angle.software)
